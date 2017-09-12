@@ -1,0 +1,74 @@
+#home{
+    padding-top:25%;
+}
+.navbar-brand{
+    margin-right: 100px;
+}
+.widget-body{
+    width:50%;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: rgba(235, 1, 9, 0.01);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.26);
+
+}
+.widget-body>#center-block{
+    padding-top: 30%;
+
+}
+.avatar{
+    width: 50px;
+    text-align: center;
+}
+#hpage{
+    background-image: url("../images/bg.jpg");
+    background-size: 100% 100%;
+    min-height: 768px;
+    background-repeat: no-repeat;
+
+}
+.filter{
+    /*background-color: rgba(15,10,49,0.8);*/
+    background-color: rgba(229, 161, 217, 0.28);
+    background-size: 100% 100%;
+    min-height: 775px;
+}
+.holder{
+    padding-top: 50px;
+    margin-top: 40px;
+}
+.col-sm-4 #kol{
+    border: 1px blue solid ;
+}
+.inputfile {
+    width: 100px;
+    height: 0.1px;
+    opacity: 1;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.inputfile + label {
+    /*font-size: 1.25em;*/
+    /*font-weight: 700;*/
+    color: white;
+    border-radius: 5px;
+    background-color: #58a2d1;
+    display: inline-block;
+    padding: 5px;
+}
+
+/*.inputfile:focus + label,*/
+.inputfile + label:hover {
+    background-color: #2c5169;
+}
+.inputfile + label {
+    cursor: pointer; /* "hand" cursor */
+}
+.pad{
+    padding-bottom: 50px;: 
+}
